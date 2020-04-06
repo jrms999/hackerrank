@@ -1,0 +1,14 @@
+read ch
+if [$ch == 'y']; then
+echo "yes"
+else
+if [$ch == 'n']; then
+echo "no"
+fi
+if [$ch == 'y']; then
+echo "yes"
+fi
+if [$ch == 'n']; then
+echo "no"
+fi
+fi
